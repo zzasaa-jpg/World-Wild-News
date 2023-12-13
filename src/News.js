@@ -11,7 +11,7 @@ function News(props) {
       <div className='img'>
         {
           props.article.urlToImage !== null ?
-            <img src={props.article.image} /> :
+            <img src={props.article.image} alt="image"/> :
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmHl1hOB60MKFw_j9QUVQKAguWs1C2p1YXGQ&usqp=CAU" />
 
         }

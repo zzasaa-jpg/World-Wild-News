@@ -12,7 +12,7 @@ function News(props) {
         {
           props.article.urlToImage !== null ?
             <img src={props.article.image} alt="image"/> :
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmHl1hOB60MKFw_j9QUVQKAguWs1C2p1YXGQ&usqp=CAU" />
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmHl1hOB60MKFw_j9QUVQKAguWs1C2p1YXGQ&usqp=CAU" alt="image"/>
 
         }
         <h2 id='title'>{props.article.title}</h2>
